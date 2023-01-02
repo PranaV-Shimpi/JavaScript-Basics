@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn2 {
+  background-color: #190c8d;
+  color: #ffffff;
+  font-size: 1.3em;
+  font-weight: 600;
+  position: relative;
+  outline: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 55px;
+  width: 160px;
+}
+
+.bmiimg {
+  width: 40%;
+  height: auto;
+  padding: 2%;
+}
+
+.para {
+  font-size: large;
+}
+
+input[type="text"]{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+    font-size: larger;
+    text-align: center;
+}
+
+input[type="text"]::placeholder {
+  font-size: large;
+  
+}
+
+@media only screen and (max-width: 600px) {
+    .bmiimg {
+      width: 100%;
+    }
+    .btn2 {
+      
+        font-size: 0.8em;
+        letter-spacing: 1px;
+        height: 45px;
+        width: 130px;
+        
+      }
+  }
+
+  
